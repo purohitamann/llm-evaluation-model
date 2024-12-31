@@ -1,0 +1,21 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Evaluation {
+  id             Int      @id @default(autoincrement())
+  prompt         String
+  response       String
+  rating         Int
+  comment        String?
+  sentimentScore Float?
+  relevanceScore Float?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
