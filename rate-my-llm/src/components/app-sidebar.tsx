@@ -14,28 +14,53 @@ import {
 // Menu items.
 const items = [
     {
-        title: "Evaluate",
+        title: "Home",
+        url: "/",
+        icon: Home,
+    },
+    {
+        title: "Start Evaluation",
         url: "/evaluate",
         icon: TestTubeDiagonal,
     },
     {
-        title: "History",
+        title: "Saved Evaluations",
         url: "/history",
         icon: Inbox,
     },
     {
-        title: "Calendar",
+        title: "Documentation",
         url: "#",
         icon: Calendar,
     },
     {
-        title: "Search",
-        url: "#",
+        title: "/models",
+        url: "/models",
         icon: Search,
     },
     {
-        title: "Settings",
-        url: "#",
+        title: "/saved",
+        url: "/saved",
+        icon: Settings,
+    },
+    {
+        title: "/docs",
+        url: "/docs",
+        icon: Settings,
+    },
+    {
+        title: "/configure",
+        url: "/configure",
+        icon: Settings,
+    },
+    {
+        title: "/results",
+        url: "/saved",
+        icon: Settings,
+    },
+    {
+        title: "/compare",
+        url: "/saved",
         icon: Settings,
     },
 ]
