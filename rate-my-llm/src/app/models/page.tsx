@@ -63,7 +63,7 @@ export function DropdownMenuCheckboxes() {
                     onCheckedChange={setShowActivityBar}
 
                 >
-                    Groq
+                    Groq inference models
                 </DropdownMenuCheckboxItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuCheckboxItem
