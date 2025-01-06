@@ -19,6 +19,11 @@ const items = [
         icon: Home,
     },
     {
+        title: "Test Model",
+        url: "/test-eval",
+        icon: TestTubeDiagonal,
+    },
+    {
         title: "Start Evaluation",
         url: "/evaluate",
         icon: TestTubeDiagonal,

@@ -19,3 +19,14 @@ model Evaluation {
   updatedAt      DateTime @updatedAt
 }
 
+
+model Prompt {
+  id           String   @id @default(uuid())
+  systemPrompt String
+  userPrompt   String
+  response     String
+  llmName      String?
+  bleu         Float?
+  rouge        Float?
+  createdAt    DateTime @default(now())
+}
