@@ -1,4 +1,3 @@
-// components/StarRating.tsx
 
 import { useState } from "react"
 
